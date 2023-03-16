@@ -44,7 +44,7 @@ public class HelloServlet extends HttpServlet {
                 "   Варкалось. Хливкие шорьки\n" +
                 "   Пырялись по наве.\n" +
                 "   И хрюкотали зелюки,\n" +
-                "   Как мюмзики в мове. ";
+                "   Как мюмзики в мове.";
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
