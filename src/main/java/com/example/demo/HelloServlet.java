@@ -16,7 +16,7 @@ public class HelloServlet extends HttpServlet {
                 "   И хрюкотали зелюки,\n" +
                 "   Как мюмзики в мове.\n" +
                 "\n" +
-                "   О бойся Бармаглота, сын! (*10)\n" +
+                "   О бойся Бармаглота, сын!\n" +
                 "   Он так свирлеп и дик,\n" +
                 "   А в глуше рымит исполин -\n" +
                 "   Злопастный Брандашмыг!\n" +
@@ -49,6 +49,7 @@ public class HelloServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
+        response.setCharacterEncoding("utf8");
 
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
