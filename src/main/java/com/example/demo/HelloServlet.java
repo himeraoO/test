@@ -9,9 +9,9 @@ public class HelloServlet extends HttpServlet {
     private String message;
 
     public void init() {
-        message = "БАРМАГЛОТ\n" +
-                "\n" +
-                "   Варкалось. Хливкие шорьки\n" +
+        message = "БАРМАГЛОТ <br>" +
+                "<br>" +
+                "   Варкалось. Хливкие шорьки <br>" +
                 "   Пырялись по наве,\n" +
                 "   И хрюкотали зелюки,\n" +
                 "   Как мюмзики в мове.\n" +
